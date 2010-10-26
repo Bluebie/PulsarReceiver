@@ -1,0 +1,11 @@
+  -=- Fuse Settings -=-
+
+Currently I'm using these:
+
+High Fuse: 0xFF (default)
+Low Fuse: 0x7A
+
+Which can be programmed with
+avrdude using this command:
+
+avrdude -p attiny13 -c usbtiny -U lfuse:w:0x7a:m
